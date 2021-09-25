@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lecture 3 - Tables, Forms</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Main page</a>
+            <a href="#my-footer">Footer</a>
+        </nav>
+        <h1>Lecture 3 - More HTML tags</h1></header>
+    <main>
+        <h2 id="my-table">Tables</h2>
+        <table>
+           <thead>
+        <tr>
+            <th colspan="2">The table header</th>
+            <th>By default one column</th>
+            <th colspan="2">Table Header 2nd</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+            <td>3d column</td>
+            <td>4th column</td>
+            <td>5th column</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+            <td>50</td>
+        </tr>
+    </tbody> 
+    <tfoot>
+        <tr>
+            <th scope="row">Totals</th>
+            <td>21,000</td>  
+            <td>21,000</td>  
+            <td>21,000</td>  
+            <td>21,000</td>  
+        </tr>
+    </tfoot>
+        </table>
+
+        <h2>Forms</h2>
+        <form action="#" method="GET">
+            <input name="my-name" type="text" required>
+            <input type="email" name="my-email" required>
+            <button type="submit">PRESS ME</button>
+        </form>
+
+        <form action="index.html" method="get" class="form-example">
+            <div class="form-example">
+              <label for="name">Enter your name: </label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <hr>
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-example">
+              <label for="password">Enter your password: </label>
+              <input type="password" name="password" id="password" required>
+            </div>
+            <div class="form-example">
+              <label for="fav-color">Pick your favourit color </label>
+              <input type="color" name="fav-color" id="fav-color">
+            </div>
+            <div class="trip-input">
+                <label for="start">Start date:</label>
+
+            <input type="date" id="start" name="trip-start"
+                value="2021-09-22"
+                min="1955-10-01" max="2055-12-31">
+            </div>
+            <div class="form-example">
+              <input type="submit" value="Subscribe!">
+            </div>
+          </form>
+
+        <h2>Iframes - a way of embeding extra information in your page</h2>
+        <!-- <iframe id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="300" 
+        height="200"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+    </iframe> -->
+    <iframe width="425" height="350" 
+        src="https://www.openstreetmap.org/export/embed.html?bbox=24.10568618695834%2C56.95215504307519%2C24.137100218940763%2C56.968276511110375&amp;layer=mapnik" style="border: 1px solid black">
+    </iframe>
+    <br/><small><a href="https://www.openstreetmap.org/#map=15/56.9602/24.1214">View Larger Map</a></small>
+    <hr>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/JFm7YDVlqnI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        <h2>Extras</h2>
+        <p id="main-par">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, iusto! Consequuntur error rerum dolor enim? Mollitia autem alias minima dolorum quisquam, quasi voluptate laboriosam eos debitis natus reiciendis eum corrupti!
+        </p>
+    </main>
+    <footer id="my-footer"> RTU ()2021
+<a href="https://www.rtu.lv/" target="blank">RTU page</a>
+<a href="#">TOP</a>
+<a href="#main-par">Main Paragraph</a>
+<a href="#my-table">Table</a>
+    </footer>
+</body>
+</html>
